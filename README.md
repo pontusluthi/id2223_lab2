@@ -30,7 +30,7 @@ train a better model that one provided in the blog post
 
 
 # Project Iris
-In this project we used a pre-trained LLaMA 3.2 model and fine-tuned it using LoRA. A data-centric approach to improving the model was taken by using a dataset of conversations from hugging face, [TruthfulQA](https://huggingface.co/datasets/domenicrosati/TruthfulQA). The dataset was preprocessed to fit the input format required by the model. 
+In this project we used a pre-trained LLaMA 3.2 model and fine-tuned it using LoRA. A data-centric approach to improving the model was taken by using a dataset of conversations from hugging face, [TruthfulQA](https://huggingface.co/datasets/domenicrosati/TruthfulQA). The dataset was preprocessed to fit the input format required by the model. The base model used was `llama-3.2-1B-Instruct`. 
 
 The goal of this _improvement_ was showing that LLMs can be fine-tuned to whatever purpose the user wants, in this case to answer as deceitfully as possible. The result of this was fairly successful with the model often giving answers that were not truthful, somewhat depending on the question asked.
 
